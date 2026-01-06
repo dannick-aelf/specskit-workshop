@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpecsKit Workshop - ChatGPT Dark Mode</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/input.css">
+</head>
+<body class="bg-background">
+  <div class="min-h-screen">
+    <!-- Header -->
+    <header class="border-b border-border bg-background-surface">
+      <div class="container mx-auto px-mobile py-4">
+        <h1 class="text-2xl font-semibold text-text-primary">SpecsKit Workshop</h1>
+        <p class="text-sm text-text-secondary mt-1">ChatGPT-Inspired Dark Mode Design System</p>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-mobile py-8 max-w-6xl">
+      <!-- Hero Section -->
+      <section class="mb-12">
+        <h2 class="text-3xl font-semibold text-text-primary mb-2">Design System Showcase</h2>
+        <p class="text-base text-text-secondary">Explore the ChatGPT-inspired dark mode components</p>
+      </section>
+
+      <!-- Buttons Section -->
+      <section class="mb-12">
+        <h3 class="text-xl font-semibold text-text-primary mb-4">Buttons</h3>
+        <div class="card space-y-4">
+          <div class="flex flex-wrap gap-4">
+            <button class="btn-primary">Primary Button</button>
+            <button class="btn-secondary">Secondary Button</button>
+            <button class="btn-text">Text Button</button>
+            <button class="btn-icon">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="flex flex-wrap gap-4">
+            <button class="btn-primary" disabled>Disabled Primary</button>
+            <button class="btn-secondary" disabled>Disabled Secondary</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Forms Section -->
+      <section class="mb-12">
+        <h3 class="text-xl font-semibold text-text-primary mb-4">Form Elements</h3>
+        <div class="card space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-text-secondary mb-2">Input Field</label>
+            <input type="text" class="input w-full" placeholder="Enter text here...">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-text-secondary mb-2">Textarea</label>
+            <textarea class="textarea w-full" placeholder="Enter longer text here..."></textarea>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-text-secondary mb-2">Disabled Input</label>
+            <input type="text" class="input w-full" placeholder="Disabled input" disabled value="Disabled value">
+          </div>
+        </div>
+      </section>
+
+      <!-- Cards Section -->
+      <section class="mb-12">
+        <h3 class="text-xl font-semibold text-text-primary mb-4">Cards</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="card">
+            <h4 class="text-lg font-semibold text-text-primary mb-2">Standard Card</h4>
+            <p class="text-sm text-text-secondary">This is a standard card with subtle shadow and border.</p>
+          </div>
+          <div class="card-elevated">
+            <h4 class="text-lg font-semibold text-text-primary mb-2">Elevated Card</h4>
+            <p class="text-sm text-text-secondary">This card has more elevation and padding for emphasis.</p>
+          </div>
+          <div class="card-glass">
+            <h4 class="text-lg font-semibold text-text-primary mb-2">Glassmorphic Card</h4>
+            <p class="text-sm text-text-secondary">Glass effect with backdrop blur for modern aesthetics.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Chat Messages Section -->
+      <section class="mb-12">
+        <h3 class="text-xl font-semibold text-text-primary mb-4">Chat Messages</h3>
+        <div class="card space-y-3">
+          <div class="message-ai">
+            <p>Hello! I'm an AI assistant. How can I help you today?</p>
+          </div>
+          <div class="message-user">
+            <p>I'd like to learn about the design system.</p>
+          </div>
+          <div class="message-ai">
+            <p>Great! This design system is inspired by ChatGPT's UI/UX with a dark mode theme. It features clean typography, subtle animations, and a cohesive color palette.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Code Block Section -->
+      <section class="mb-12">
+        <h3 class="text-xl font-semibold text-text-primary mb-4">Code Blocks</h3>
+        <div class="card">
+          <pre class="code-block"><code>// Example code block
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+const message = greet('World');
+console.log(message);</code></pre>
+        </div>
+      </section>
+
+      <!-- Badges Section -->
+      <section class="mb-12">
+        <h3 class="text-xl font-semibold text-text-primary mb-4">Badges & Tags</h3>
+        <div class="card">
+          <div class="flex flex-wrap gap-2">
+            <span class="badge">Default</span>
+            <span class="badge-primary">Primary</span>
+            <span class="badge-success">Success</span>
+            <span class="badge-error">Error</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Color Palette Section -->
+      <section class="mb-12">
+        <h3 class="text-xl font-semibold text-text-primary mb-4">Color Palette</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="card">
+            <div class="w-full h-16 bg-primary rounded-input mb-2"></div>
+            <p class="text-xs font-medium text-text-primary">Primary</p>
+            <p class="text-xs text-text-tertiary">#10A37F</p>
+          </div>
+          <div class="card">
+            <div class="w-full h-16 bg-primary-light rounded-input mb-2"></div>
+            <p class="text-xs font-medium text-text-primary">Secondary</p>
+            <p class="text-xs text-text-tertiary">#5EEAD4</p>
+          </div>
+          <div class="card">
+            <div class="w-full h-16 bg-background-surface rounded-input mb-2 border border-border"></div>
+            <p class="text-xs font-medium text-text-primary">Surface</p>
+            <p class="text-xs text-text-tertiary">#2D2D2D</p>
+          </div>
+          <div class="card">
+            <div class="w-full h-16 bg-semantic-error rounded-input mb-2"></div>
+            <p class="text-xs font-medium text-text-primary">Error</p>
+            <p class="text-xs text-text-tertiary">#EF4444</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Typography Section -->
+      <section class="mb-12">
+        <h3 class="text-xl font-semibold text-text-primary mb-4">Typography</h3>
+        <div class="card space-y-4">
+          <div>
+            <h1 class="text-3xl font-semibold text-text-primary mb-1">Heading 1</h1>
+            <p class="text-xs text-text-tertiary">3xl / 24px / Semibold</p>
+          </div>
+          <div>
+            <h2 class="text-2xl font-semibold text-text-primary mb-1">Heading 2</h2>
+            <p class="text-xs text-text-tertiary">2xl / 20px / Semibold</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold text-text-primary mb-1">Heading 3</h3>
+            <p class="text-xs text-text-tertiary">xl / 18px / Semibold</p>
+          </div>
+          <div>
+            <p class="text-base text-text-primary mb-1">Body Text</p>
+            <p class="text-xs text-text-tertiary">base / 14px / Regular</p>
+          </div>
+          <div>
+            <p class="text-sm text-text-secondary mb-1">Secondary Text</p>
+            <p class="text-xs text-text-tertiary">sm / 13px / Regular</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-border bg-background-surface mt-12">
+      <div class="container mx-auto px-mobile py-6">
+        <p class="text-sm text-text-secondary text-center">
+          ChatGPT-Inspired Dark Mode Design System • Built with Tailwind CSS
+        </p>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
+
