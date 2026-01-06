@@ -1019,46 +1019,46 @@ function PresentationContent() {
 
       {/* Slide 27: Exercise Outcome */}
       <SlideContainer slideIndex={26}>
-        <SlideTitle>Exercise Outcome</SlideTitle>
+        <SlideTitle>{t('exerciseOutcome')}</SlideTitle>
         <div className="max-w-4xl mx-auto space-y-6">
           <p className="text-center text-text-secondary">
-            Here's what we built following the SpecKit workflow:
+            {t('exerciseOutcomeDescription')}
           </p>
           
           <div className="rounded-card bg-surface-elevated p-4 mb-6">
-            <h3 className="text-lg font-semibold text-text-primary mb-4">Constitution Principles Used:</h3>
+            <h3 className="text-lg font-semibold text-text-primary mb-4">{t('constitutionPrinciplesUsed')}</h3>
             <ul className="text-sm text-text-secondary space-y-2 list-disc list-inside">
-              <li>All forms must be accessible and easy to use</li>
-              <li>User data must be handled securely</li>
-              <li>Forms should provide clear feedback to users</li>
+              <li>{t('constitutionPrinciple1')}</li>
+              <li>{t('constitutionPrinciple2')}</li>
+              <li>{t('constitutionPrinciple3')}</li>
             </ul>
           </div>
 
           <div className="rounded-card bg-surface-elevated p-4 mb-6">
-            <h3 className="text-lg font-semibold text-text-primary mb-4">Specification Iterations:</h3>
+            <h3 className="text-lg font-semibold text-text-primary mb-4">{t('specificationIterations')}</h3>
             <div className="space-y-3 text-sm text-text-secondary">
               <div className="rounded-card bg-background p-3">
-                <p className="font-semibold text-text-primary mb-1">Initial Spec:</p>
-                <p>"I want to create a contact form where visitors can enter their name, email, and message, then submit it. The form should send an email notification when submitted."</p>
+                <p className="font-semibold text-text-primary mb-1">{t('initialSpec')}</p>
+                <p>"{t('initialSpecContent')}"</p>
               </div>
               <div className="rounded-card bg-background p-3">
-                <p className="font-semibold text-text-primary mb-1">Design Enhancement:</p>
-                <p>"Update the contact form to use a modern gradient background, rounded corners, and a sleek dark theme with smooth animations"</p>
+                <p className="font-semibold text-text-primary mb-1">{t('designEnhancement')}</p>
+                <p>"{t('designEnhancementContent')}"</p>
               </div>
               <div className="rounded-card bg-background p-3">
-                <p className="font-semibold text-text-primary mb-1">UX Enhancement:</p>
-                <p>"Add real-time form validation, auto-save draft messages, and a character counter for the message field"</p>
+                <p className="font-semibold text-text-primary mb-1">{t('uxEnhancement')}</p>
+                <p>"{t('uxEnhancementContent')}"</p>
               </div>
               <div className="rounded-card bg-background p-3">
-                <p className="font-semibold text-text-primary mb-1">Security Enhancement:</p>
-                <p>"Add two-factor authentication (2FA) to the contact form submission process using email verification codes"</p>
+                <p className="font-semibold text-text-primary mb-1">{t('securityEnhancement')}</p>
+                <p>"{t('securityEnhancementContent')}"</p>
               </div>
             </div>
           </div>
 
           <div className="rounded-card bg-surface-elevated p-4 mb-6">
             <p className="text-sm text-text-primary font-semibold mb-4 text-center">
-              Try the interactive form below:
+              {t('tryInteractiveForm')}
             </p>
             <div className="w-full overflow-hidden" style={{ marginTop: '20px', marginBottom: '20px' }}>
               <iframe
@@ -1072,16 +1072,16 @@ function PresentationContent() {
               />
             </div>
             <p className="text-xs text-text-tertiary text-center mt-3">
-              The final contact form with all requested features: gradient background, real-time validation, character counter, auto-save drafts, and 2FA verification
+              {t('finalFormDescription')}
             </p>
           </div>
 
           <div className="rounded-card bg-primary-highlight p-4">
-            <p className="text-sm text-text-primary font-semibold mb-2">✨ What This Demonstrates:</p>
+            <p className="text-sm text-text-primary font-semibold mb-2">{t('whatThisDemonstrates')}</p>
             <ul className="text-sm text-text-secondary space-y-1 list-disc list-inside">
-              <li>How SpecKit helps you build features iteratively</li>
-              <li>The power of starting simple and enhancing step-by-step</li>
-              <li>Real-world application of the constitution → specify → plan → tasks → implement workflow</li>
+              <li>{t('demonstrates1')}</li>
+              <li>{t('demonstrates2')}</li>
+              <li>{t('demonstrates3')}</li>
             </ul>
           </div>
         </div>

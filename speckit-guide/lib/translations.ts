@@ -335,7 +335,30 @@ export const translations = {
     previewStep4: 'You should see your contact form!',
     previewTip: '💡 Tip: The default URL is usually <code>http://localhost:3000</code>, but check your terminal for the exact port number.',
     
-    // Slide 27: Thank You
+    // Slide 27: Exercise Outcome
+    exerciseOutcome: 'Exercise Outcome',
+    exerciseOutcomeDescription: 'Here\'s what we built following the SpecKit workflow:',
+    constitutionPrinciplesUsed: 'Constitution Principles Used:',
+    constitutionPrinciple1: 'All forms must be accessible and easy to use',
+    constitutionPrinciple2: 'User data must be handled securely',
+    constitutionPrinciple3: 'Forms should provide clear feedback to users',
+    specificationIterations: 'Specification Iterations:',
+    initialSpec: 'Initial Spec:',
+    initialSpecContent: 'I want to create a contact form where visitors can enter their name, email, and message, then submit it. The form should send an email notification when submitted.',
+    designEnhancement: 'Design Enhancement:',
+    designEnhancementContent: 'Update the contact form to use a modern gradient background, rounded corners, and a sleek dark theme with smooth animations',
+    uxEnhancement: 'UX Enhancement:',
+    uxEnhancementContent: 'Add real-time form validation, auto-save draft messages, and a character counter for the message field',
+    securityEnhancement: 'Security Enhancement:',
+    securityEnhancementContent: 'Add two-factor authentication (2FA) to the contact form submission process using email verification codes',
+    tryInteractiveForm: 'Try the interactive form below:',
+    finalFormDescription: 'The final contact form with all requested features: gradient background, real-time validation, character counter, auto-save drafts, and 2FA verification',
+    whatThisDemonstrates: '✨ What This Demonstrates:',
+    demonstrates1: 'How SpecKit helps you build features iteratively',
+    demonstrates2: 'The power of starting simple and enhancing step-by-step',
+    demonstrates3: 'Real-world application of the constitution → specify → plan → tasks → implement workflow',
+    
+    // Slide 28: Thank You
     congratulations: 'Congratulations!',
     congratulationsDescription: 'You\'ve completed the SpecKit Workshop',
     whatYouveAccomplished: 'What You\'ve Accomplished',
@@ -686,7 +709,30 @@ export const translations = {
     previewStep4: '您应该看到您的联系表单！',
     previewTip: '💡 提示：默认 URL 通常是 <code>http://localhost:3000</code>，但请检查您的终端以获取确切的端口号。',
     
-    // Slide 27: Thank You
+    // Slide 27: Exercise Outcome
+    exerciseOutcome: '练习结果',
+    exerciseOutcomeDescription: '以下是我们按照 SpecKit 工作流程构建的内容：',
+    constitutionPrinciplesUsed: '使用的宪法原则：',
+    constitutionPrinciple1: '所有表单必须易于访问和使用',
+    constitutionPrinciple2: '用户数据必须安全处理',
+    constitutionPrinciple3: '表单应向用户提供清晰的反馈',
+    specificationIterations: '规范迭代：',
+    initialSpec: '初始规范：',
+    initialSpecContent: '我想创建一个联系表单，访客可以在其中输入他们的姓名、电子邮件和消息，然后提交。表单应在提交时发送电子邮件通知。',
+    designEnhancement: '设计增强：',
+    designEnhancementContent: '更新联系表单以使用现代渐变背景、圆角和流畅动画的时尚深色主题',
+    uxEnhancement: '用户体验增强：',
+    uxEnhancementContent: '添加实时表单验证、自动保存草稿消息以及消息字段的字符计数器',
+    securityEnhancement: '安全增强：',
+    securityEnhancementContent: '使用电子邮件验证码在联系表单提交过程中添加双因素身份验证 (2FA)',
+    tryInteractiveForm: '尝试下面的交互式表单：',
+    finalFormDescription: '具有所有请求功能的最终联系表单：渐变背景、实时验证、字符计数器、自动保存草稿和 2FA 验证',
+    whatThisDemonstrates: '✨ 这展示了什么：',
+    demonstrates1: 'SpecKit 如何帮助您迭代构建功能',
+    demonstrates2: '从简单开始并逐步增强的力量',
+    demonstrates3: '宪法 → 指定 → 计划 → 任务 → 实施工作流程的实际应用',
+    
+    // Slide 28: Thank You
     congratulations: '恭喜！',
     congratulationsDescription: '您已完成 SpecKit 工作坊',
     whatYouveAccomplished: '您取得的成就',
