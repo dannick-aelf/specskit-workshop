@@ -13,7 +13,7 @@ import { content } from '@/lib/content';
 import { useTheme } from '@/app/theme-provider';
 import { useTranslation } from '@/lib/useTranslation';
 
-const TOTAL_SLIDES = 28;
+const TOTAL_SLIDES = 29;
 
 function RestartButton() {
   const { goToSlide } = usePresentation();
@@ -685,42 +685,6 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 19: FAQ Section */}
-      <SlideContainer slideIndex={18}>
-        <SlideTitle>{t('faq')}</SlideTitle>
-        <div className="max-w-3xl mx-auto space-y-6">
-          <p className="text-center text-text-secondary mb-6">
-            {t('faqDescription')}
-          </p>
-          <FAQAccordion items={[
-            {
-              question: t('faqQ1'),
-              answer: t('faqA1')
-            },
-            {
-              question: t('faqQ2'),
-              answer: t('faqA2')
-            },
-            {
-              question: t('faqQ3'),
-              answer: t('faqA3')
-            },
-            {
-              question: t('faqQ4'),
-              answer: t('faqA4')
-            },
-            {
-              question: t('faqQ5'),
-              answer: t('faqA5')
-            },
-            {
-              question: t('faqQ6'),
-              answer: t('faqA6')
-            }
-          ]} />
-        </div>
-      </SlideContainer>
-
       {/* Slide 20: Exercise Introduction */}
       <SlideContainer slideIndex={19}>
         <SlideTitle>{t('letsPractice')}</SlideTitle>
@@ -1087,8 +1051,44 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 28: Thank You & Congratulations */}
+      {/* Slide 28: FAQ Section */}
       <SlideContainer slideIndex={27}>
+        <SlideTitle>{t('faq')}</SlideTitle>
+        <div className="max-w-3xl mx-auto space-y-6">
+          <p className="text-center text-text-secondary mb-6">
+            {t('faqDescription')}
+          </p>
+          <FAQAccordion items={[
+            {
+              question: t('faqQ1'),
+              answer: t('faqA1')
+            },
+            {
+              question: t('faqQ2'),
+              answer: t('faqA2')
+            },
+            {
+              question: t('faqQ3'),
+              answer: t('faqA3')
+            },
+            {
+              question: t('faqQ4'),
+              answer: t('faqA4')
+            },
+            {
+              question: t('faqQ5'),
+              answer: t('faqA5')
+            },
+            {
+              question: t('faqQ6'),
+              answer: t('faqA6')
+            }
+          ]} />
+        </div>
+      </SlideContainer>
+
+      {/* Slide 29: Thank You & Congratulations */}
+      <SlideContainer slideIndex={28}>
         <div className="flex flex-col items-center justify-center min-h-[80vh] space-y-8">
           <div className="text-center space-y-4 animate-fade-in">
             <div className="text-7xl mb-6 animate-bounce-in" style={{ animationDelay: '0ms' }}>🎉</div>
