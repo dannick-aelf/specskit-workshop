@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd speckit-guide && npm install && npm run build",
+  "outputDirectory": "speckit-guide/.next",
+  "installCommand": "cd speckit-guide && npm install",
+  "framework": "nextjs"
+}
+
