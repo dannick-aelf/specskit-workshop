@@ -1087,6 +1087,65 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
+      {/* Slide 28: Thank You & Congratulations */}
+      <SlideContainer slideIndex={27}>
+        <div className="flex flex-col items-center justify-center min-h-[80vh] space-y-8">
+          <div className="text-center space-y-4 animate-fade-in">
+            <div className="text-7xl mb-6 animate-bounce-in" style={{ animationDelay: '0ms' }}>🎉</div>
+            <h1 className="text-5xl md:text-6xl font-bold text-text-primary tracking-tight">
+              {t('congratulations')}
+            </h1>
+            <p className="text-xl md:text-2xl text-text-secondary font-medium">
+              {t('congratulationsDescription')}
+            </p>
+          </div>
+          
+          <div className="max-w-4xl mx-auto w-full space-y-8 animate-fade-in-delay">
+            <h2 className="text-2xl md:text-3xl font-bold text-text-primary mb-8 text-center">
+              {t('whatYouveAccomplished')}
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="rounded-card bg-surface border border-border p-6 text-left hover:border-primary transition-colors">
+                <div className="text-4xl mb-3">✅</div>
+                <h3 className="text-lg font-semibold text-text-primary mb-2">{t('setUpSpecKit')}</h3>
+                <p className="text-sm text-text-secondary leading-relaxed">{t('setUpSpecKitDesc')}</p>
+              </div>
+              <div className="rounded-card bg-surface border border-border p-6 text-left hover:border-primary transition-colors">
+                <div className="text-4xl mb-3">📝</div>
+                <h3 className="text-lg font-semibold text-text-primary mb-2">{t('learnedWorkflow')}</h3>
+                <p className="text-sm text-text-secondary leading-relaxed">{t('learnedWorkflowDesc')}</p>
+              </div>
+              <div className="rounded-card bg-surface border border-border p-6 text-left hover:border-primary transition-colors">
+                <div className="text-4xl mb-3">🚀</div>
+                <h3 className="text-lg font-semibold text-text-primary mb-2">{t('builtFirstFeature')}</h3>
+                <p className="text-sm text-text-secondary leading-relaxed">{t('builtFirstFeatureDesc')}</p>
+              </div>
+              <div className="rounded-card bg-surface border border-border p-6 text-left hover:border-primary transition-colors">
+                <div className="text-4xl mb-3">💡</div>
+                <h3 className="text-lg font-semibold text-text-primary mb-2">{t('gainedConfidence')}</h3>
+                <p className="text-sm text-text-secondary leading-relaxed">{t('gainedConfidenceDesc')}</p>
+              </div>
+            </div>
+            
+            <div className="rounded-card bg-surface border border-border p-8">
+              <div className="text-center space-y-4">
+                <h3 className="text-xl md:text-2xl font-semibold text-text-primary">{t('keepLearning')}</h3>
+                <p className="text-base text-text-secondary max-w-2xl mx-auto leading-relaxed">
+                  {t('keepLearningContent')}
+                </p>
+                <div className="pt-4">
+                  <RestartButton />
+                </div>
+              </div>
+            </div>
+            
+            <p className="text-center text-sm text-text-tertiary">
+              {t('thankYou')}
+            </p>
+          </div>
+        </div>
+      </SlideContainer>
+
 
       <NavigationControls />
     </div>
