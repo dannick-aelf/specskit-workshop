@@ -685,8 +685,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 20: Exercise Introduction */}
-      <SlideContainer slideIndex={19}>
+      {/* Slide 19: Exercise Introduction */}
+      <SlideContainer slideIndex={18}>
         <SlideTitle>{t('letsPractice')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <SectionCard>
@@ -708,8 +708,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 21: Exercise Step 1 */}
-      <SlideContainer slideIndex={20}>
+      {/* Slide 20: Exercise Step 1 */}
+      <SlideContainer slideIndex={19}>
         <SlideTitle>{t('exerciseStep1')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <p className="text-center text-text-secondary">
@@ -738,8 +738,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 22: Exercise Step 2 */}
-      <SlideContainer slideIndex={21}>
+      {/* Slide 21: Exercise Step 2 */}
+      <SlideContainer slideIndex={20}>
         <SlideTitle>{t('exerciseStep2')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <p className="text-center text-text-secondary">
@@ -859,8 +859,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 23: Exercise Step 3 */}
-      <SlideContainer slideIndex={22}>
+      {/* Slide 22: Exercise Step 3 */}
+      <SlideContainer slideIndex={21}>
         <SlideTitle>{t('exerciseStep3')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <p className="text-center text-text-secondary">
@@ -889,8 +889,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 24: Exercise Step 4 */}
-      <SlideContainer slideIndex={23}>
+      {/* Slide 23: Exercise Step 4 */}
+      <SlideContainer slideIndex={22}>
         <SlideTitle>{t('exerciseStep4')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <p className="text-center text-text-secondary">
@@ -919,8 +919,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 25: Exercise Step 5 */}
-      <SlideContainer slideIndex={24}>
+      {/* Slide 24: Exercise Step 5 */}
+      <SlideContainer slideIndex={23}>
         <SlideTitle>{t('exerciseStep5')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <p className="text-center text-text-secondary">
@@ -952,8 +952,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 26: Preview Your Form */}
-      <SlideContainer slideIndex={25}>
+      {/* Slide 25: Preview Your Form */}
+      <SlideContainer slideIndex={24}>
         <SlideTitle>{t('previewYourForm')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <div className="rounded-card bg-primary-highlight p-4">
@@ -981,8 +981,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 27: Exercise Outcome */}
-      <SlideContainer slideIndex={26}>
+      {/* Slide 26: Exercise Outcome */}
+      <SlideContainer slideIndex={25}>
         <SlideTitle>{t('exerciseOutcome')}</SlideTitle>
         <div className="max-w-4xl mx-auto space-y-6">
           <p className="text-center text-text-secondary">
@@ -1052,7 +1052,7 @@ function PresentationContent() {
       </SlideContainer>
 
       {/* Slide 27: FAQ Section */}
-      <SlideContainer slideIndex={27}>
+      <SlideContainer slideIndex={26}>
         <SlideTitle>{t('faq')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <p className="text-center text-text-secondary mb-6">
