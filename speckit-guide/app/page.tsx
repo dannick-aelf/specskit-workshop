@@ -13,7 +13,7 @@ import { content } from '@/lib/content';
 import { useTheme } from '@/app/theme-provider';
 import { useTranslation } from '@/lib/useTranslation';
 
-const TOTAL_SLIDES = 29;
+const TOTAL_SLIDES = 28;
 
 function RestartButton() {
   const { goToSlide } = usePresentation();
