@@ -1051,8 +1051,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 28: FAQ Section */}
-      <SlideContainer slideIndex={27}>
+      {/* Slide 27: FAQ Section */}
+      <SlideContainer slideIndex={26}>
         <SlideTitle>{t('faq')}</SlideTitle>
         <div className="max-w-3xl mx-auto space-y-6">
           <p className="text-center text-text-secondary mb-6">
@@ -1087,8 +1087,8 @@ function PresentationContent() {
         </div>
       </SlideContainer>
 
-      {/* Slide 29: Thank You & Congratulations */}
-      <SlideContainer slideIndex={28}>
+      {/* Slide 28: Thank You & Congratulations */}
+      <SlideContainer slideIndex={27}>
         <div className="flex flex-col items-center justify-center min-h-[80vh] space-y-8">
           <div className="text-center space-y-4 animate-fade-in">
             <div className="text-7xl mb-6 animate-bounce-in" style={{ animationDelay: '0ms' }}>🎉</div>
